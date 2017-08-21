@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <root>
+    <file name="ActionAspectDescriptorImpl.java">
+      <unit at="14,0,43,0" name="MrJEditor.actions.ActionAspectDescriptorImpl" />
+    </file>
+    <file name="QueriesGenerated.java">
+      <unit at="6,0,8,0" name="MrJEditor.actions.QueriesGenerated" />
+    </file>
+  </root>
+  <root nodeRef="r:d9831ee6-10bb-408e-8c50-bb34eb74a731(MrJEditor.actions)/1538621104059808851">
+    <file name="Factories.java">
+      <node id="1538621104059863286" at="14,91,15,174" concept="0" />
+      <node id="1538621104059810009" at="16,205,17,495" concept="0" />
+      <node id="5190431334167083050" at="22,91,23,166" concept="0" />
+      <node id="2976269855642441796" at="27,91,28,187" concept="0" />
+      <node id="1538621104059808866" at="15,174,18,7" concept="1" />
+      <node id="5190431334167083003" at="22,0,25,0" concept="2" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="2976269855642441740" at="27,0,30,0" concept="2" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <node id="1538621104059808852" at="14,0,20,0" concept="2" trace="setup#(Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SNode;Lorg/jetbrains/mps/openapi/model/SModel;)V" />
+      <scope id="1538621104059808868" at="16,205,17,495" />
+      <scope id="5190431334167083003" at="22,91,23,166" />
+      <scope id="2976269855642441740" at="27,91,28,187" />
+      <scope id="5190431334167083003" at="22,0,25,0">
+        <var name="enclosingNode" id="5190431334167083003" />
+        <var name="model" id="5190431334167083003" />
+        <var name="newNode" id="5190431334167083003" />
+        <var name="sampleNode" id="5190431334167083003" />
+      </scope>
+      <scope id="2976269855642441740" at="27,0,30,0">
+        <var name="enclosingNode" id="2976269855642441740" />
+        <var name="model" id="2976269855642441740" />
+        <var name="newNode" id="2976269855642441740" />
+        <var name="sampleNode" id="2976269855642441740" />
+      </scope>
+      <scope id="1538621104059808852" at="14,91,18,7" />
+      <scope id="1538621104059808852" at="14,0,20,0">
+        <var name="enclosingNode" id="1538621104059808852" />
+        <var name="model" id="1538621104059808852" />
+        <var name="newNode" id="1538621104059808852" />
+        <var name="sampleNode" id="1538621104059808852" />
+      </scope>
+      <unit id="5190431334167083003" at="21,0,26,0" name="MrJEditor.actions.Factories$NodeFactory_5190431334167083003" />
+      <unit id="2976269855642441740" at="26,0,31,0" name="MrJEditor.actions.Factories$NodeFactory_2976269855642441740" />
+      <unit id="1538621104059808852" at="13,0,21,0" name="MrJEditor.actions.Factories$NodeFactory_1538621104059808852" />
+      <unit id="1538621104059808851" at="12,0,32,0" name="MrJEditor.actions.Factories" />
+    </file>
+  </root>
+  <root nodeRef="r:d9831ee6-10bb-408e-8c50-bb34eb74a731(MrJEditor.actions)/1538621104060141662">
+    <file name="RuleHandlers_PastePostProcessor_0.java">
+      <node id="1538621104060155542" at="14,50,15,132" concept="3" />
+      <node id="1538621104060166118" at="19,253,20,177" concept="0" />
+      <node id="1538621104060179312" at="22,251,23,520" concept="0" />
+      <node id="1538621104060178830" at="24,5,25,0" concept="4" />
+      <node id="1538621104060155556" at="18,49,21,5" concept="1" />
+      <node id="1538621104060179298" at="21,5,24,5" concept="1" />
+      <node id="1538621104060155542" at="13,0,17,0" concept="2" trace="getApplicableConcept#()Lorg/jetbrains/mps/openapi/language/SAbstractConcept;" />
+      <node id="1538621104060155542" at="17,0,27,0" concept="2" trace="postProcessNode#(Lorg/jetbrains/mps/openapi/model/SNode;)V" />
+      <scope id="1538621104060155542" at="14,50,15,132" />
+      <scope id="1538621104060155558" at="19,253,20,177" />
+      <scope id="1538621104060179311" at="22,251,23,520" />
+      <scope id="1538621104060155542" at="13,0,17,0" />
+      <scope id="1538621104060155544" at="18,49,25,0" />
+      <scope id="1538621104060155542" at="17,0,27,0">
+        <var name="pastedNode" id="1538621104060155542" />
+      </scope>
+      <unit id="1538621104060155542" at="12,0,28,0" name="MrJEditor.actions.RuleHandlers_PastePostProcessor_0" />
+    </file>
+  </root>
+</debug-info>
+

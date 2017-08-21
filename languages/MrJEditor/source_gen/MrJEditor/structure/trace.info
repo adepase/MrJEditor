@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082485599095:jetbrains.mps.baseLanguage.structure.BlockStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123140:jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068390468200:jetbrains.mps.baseLanguage.structure.FieldDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1076505808687:jetbrains.mps.baseLanguage.structure.WhileStatement" />
+  <root>
+    <file name="ConceptPresentationAspectImpl.java">
+      <unit at="11,0,94,0" name="MrJEditor.structure.ConceptPresentationAspectImpl" />
+    </file>
+    <file name="LanguageConceptSwitch.java">
+      <unit at="10,0,74,0" name="MrJEditor.structure.LanguageConceptSwitch" />
+    </file>
+    <file name="StructureAspectDescriptor.java">
+      <unit at="14,0,348,0" name="MrJEditor.structure.StructureAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/1538621104059153421">
+    <file name="RuleType.java">
+      <node id="1538621104059153421" at="13,0,14,0" concept="3" trace="myName" />
+      <node id="1538621104059153421" at="14,27,15,18" concept="7" />
+      <node id="1538621104059153421" at="17,0,18,0" concept="3" trace="myValue" />
+      <node id="1538621104059153421" at="18,47,19,18" concept="2" />
+      <node id="1538621104059153421" at="19,18,20,20" concept="2" />
+      <node id="1538621104059153421" at="22,28,23,19" concept="7" />
+      <node id="1538621104059153421" at="25,36,26,19" concept="7" />
+      <node id="1538621104059153421" at="28,47,29,76" concept="6" />
+      <node id="1538621104059153421" at="29,76,30,55" concept="2" />
+      <node id="1538621104059153421" at="30,55,31,55" concept="2" />
+      <node id="1538621104059153421" at="31,55,32,16" concept="7" />
+      <node id="1538621104059153421" at="34,39,35,22" concept="7" />
+      <node id="1538621104059153421" at="38,24,39,35" concept="7" />
+      <node id="1538621104059153421" at="41,54,42,24" concept="7" />
+      <node id="1538621104059153421" at="44,54,45,24" concept="7" />
+      <node id="1538621104059153421" at="46,5,47,33" concept="7" />
+      <node id="1538621104059153421" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="1538621104059153421" at="22,0,25,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="1538621104059153421" at="25,0,28,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="1538621104059153421" at="34,0,37,0" concept="8" trace="getDefault#()LMrJEditor/structure/RuleType;" />
+      <node id="1538621104059153421" at="37,51,40,5" concept="4" />
+      <node id="1538621104059153421" at="40,5,43,5" concept="4" />
+      <node id="1538621104059153421" at="43,5,46,5" concept="4" />
+      <node id="1538621104059153421" at="18,0,22,0" concept="1" trace="RuleType#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1538621104059153421" at="28,0,34,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="1538621104059153421" at="37,0,49,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/RuleType;" />
+      <scope id="1538621104059153421" at="14,27,15,18" />
+      <scope id="1538621104059153421" at="22,28,23,19" />
+      <scope id="1538621104059153421" at="25,36,26,19" />
+      <scope id="1538621104059153421" at="34,39,35,22" />
+      <scope id="1538621104059153421" at="38,24,39,35" />
+      <scope id="1538621104059153421" at="41,54,42,24" />
+      <scope id="1538621104059153421" at="44,54,45,24" />
+      <scope id="1538621104059153421" at="18,47,20,20" />
+      <scope id="1538621104059153421" at="14,0,17,0" />
+      <scope id="1538621104059153421" at="22,0,25,0" />
+      <scope id="1538621104059153421" at="25,0,28,0" />
+      <scope id="1538621104059153421" at="34,0,37,0" />
+      <scope id="1538621104059153421" at="18,0,22,0">
+        <var name="name" id="1538621104059153421" />
+        <var name="value" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="28,47,32,16">
+        <var name="list" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="28,0,34,0" />
+      <scope id="1538621104059153421" at="37,51,47,33" />
+      <scope id="1538621104059153421" at="37,0,49,0">
+        <var name="value" id="1538621104059153421" />
+      </scope>
+      <unit id="1538621104059153421" at="9,0,50,0" name="MrJEditor.structure.RuleType" />
+    </file>
+    <file name="RuleType_PropertySupport.java">
+      <node id="1538621104059153421" at="11,24,12,18" concept="7" />
+      <node id="1538621104059153421" at="13,5,14,93" concept="6" />
+      <node id="1538621104059153421" at="15,33,16,43" concept="6" />
+      <node id="1538621104059153421" at="17,45,18,20" concept="7" />
+      <node id="1538621104059153421" at="20,5,21,17" concept="7" />
+      <node id="1538621104059153421" at="24,24,25,18" concept="7" />
+      <node id="1538621104059153421" at="26,5,27,93" concept="6" />
+      <node id="1538621104059153421" at="28,33,29,43" concept="6" />
+      <node id="1538621104059153421" at="30,45,31,43" concept="7" />
+      <node id="1538621104059153421" at="33,5,34,16" concept="7" />
+      <node id="1538621104059153421" at="36,49,37,51" concept="6" />
+      <node id="1538621104059153421" at="38,27,39,32" concept="7" />
+      <node id="1538621104059153421" at="40,5,41,14" concept="7" />
+      <node id="1538621104059153421" at="10,44,13,5" concept="4" />
+      <node id="1538621104059153421" at="16,43,19,7" concept="4" />
+      <node id="1538621104059153421" at="23,47,26,5" concept="4" />
+      <node id="1538621104059153421" at="29,43,32,7" concept="4" />
+      <node id="1538621104059153421" at="37,51,40,5" concept="4" />
+      <node id="1538621104059153421" at="14,93,20,5" concept="9" />
+      <node id="1538621104059153421" at="27,93,33,5" concept="9" />
+      <node id="1538621104059153421" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1538621104059153421" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1538621104059153421" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1538621104059153421" at="11,24,12,18" />
+      <scope id="1538621104059153421" at="17,45,18,20" />
+      <scope id="1538621104059153421" at="24,24,25,18" />
+      <scope id="1538621104059153421" at="30,45,31,43" />
+      <scope id="1538621104059153421" at="38,27,39,32" />
+      <scope id="1538621104059153421" at="15,33,19,7">
+        <var name="constant" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="28,33,32,7">
+        <var name="constant" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="36,49,41,14">
+        <var name="constant" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="36,0,43,0">
+        <var name="value" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="10,44,21,17">
+        <var name="constants" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="23,47,34,16">
+        <var name="constants" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="10,0,23,0">
+        <var name="value" id="1538621104059153421" />
+      </scope>
+      <scope id="1538621104059153421" at="23,0,36,0">
+        <var name="value" id="1538621104059153421" />
+      </scope>
+      <unit id="1538621104059153421" at="9,0,44,0" name="MrJEditor.structure.RuleType_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/1538621104059260500">
+    <file name="TestType.java">
+      <node id="1538621104059260500" at="14,0,15,0" concept="3" trace="myName" />
+      <node id="1538621104059260500" at="15,27,16,18" concept="7" />
+      <node id="1538621104059260500" at="18,0,19,0" concept="3" trace="myValue" />
+      <node id="1538621104059260500" at="19,47,20,18" concept="2" />
+      <node id="1538621104059260500" at="20,18,21,20" concept="2" />
+      <node id="1538621104059260500" at="23,28,24,19" concept="7" />
+      <node id="1538621104059260500" at="26,36,27,19" concept="7" />
+      <node id="1538621104059260500" at="29,47,30,76" concept="6" />
+      <node id="1538621104059260500" at="30,76,31,55" concept="2" />
+      <node id="1538621104059260500" at="31,55,32,55" concept="2" />
+      <node id="1538621104059260500" at="32,55,33,55" concept="2" />
+      <node id="1538621104059260500" at="33,55,34,16" concept="7" />
+      <node id="1538621104059260500" at="36,39,37,22" concept="7" />
+      <node id="1538621104059260500" at="40,24,41,35" concept="7" />
+      <node id="1538621104059260500" at="43,54,44,24" concept="7" />
+      <node id="1538621104059260500" at="46,54,47,24" concept="7" />
+      <node id="1538621104059260500" at="49,54,50,24" concept="7" />
+      <node id="1538621104059260500" at="51,5,52,33" concept="7" />
+      <node id="1538621104059260500" at="15,0,18,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="1538621104059260500" at="23,0,26,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="1538621104059260500" at="26,0,29,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="1538621104059260500" at="36,0,39,0" concept="8" trace="getDefault#()LMrJEditor/structure/TestType;" />
+      <node id="1538621104059260500" at="39,51,42,5" concept="4" />
+      <node id="1538621104059260500" at="42,5,45,5" concept="4" />
+      <node id="1538621104059260500" at="45,5,48,5" concept="4" />
+      <node id="1538621104059260500" at="48,5,51,5" concept="4" />
+      <node id="1538621104059260500" at="19,0,23,0" concept="1" trace="TestType#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1538621104059260500" at="29,0,36,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="1538621104059260500" at="39,0,54,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/TestType;" />
+      <scope id="1538621104059260500" at="15,27,16,18" />
+      <scope id="1538621104059260500" at="23,28,24,19" />
+      <scope id="1538621104059260500" at="26,36,27,19" />
+      <scope id="1538621104059260500" at="36,39,37,22" />
+      <scope id="1538621104059260500" at="40,24,41,35" />
+      <scope id="1538621104059260500" at="43,54,44,24" />
+      <scope id="1538621104059260500" at="46,54,47,24" />
+      <scope id="1538621104059260500" at="49,54,50,24" />
+      <scope id="1538621104059260500" at="19,47,21,20" />
+      <scope id="1538621104059260500" at="15,0,18,0" />
+      <scope id="1538621104059260500" at="23,0,26,0" />
+      <scope id="1538621104059260500" at="26,0,29,0" />
+      <scope id="1538621104059260500" at="36,0,39,0" />
+      <scope id="1538621104059260500" at="19,0,23,0">
+        <var name="name" id="1538621104059260500" />
+        <var name="value" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="29,47,34,16">
+        <var name="list" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="29,0,36,0" />
+      <scope id="1538621104059260500" at="39,51,52,33" />
+      <scope id="1538621104059260500" at="39,0,54,0">
+        <var name="value" id="1538621104059260500" />
+      </scope>
+      <unit id="1538621104059260500" at="9,0,55,0" name="MrJEditor.structure.TestType" />
+    </file>
+    <file name="TestType_PropertySupport.java">
+      <node id="1538621104059260500" at="11,24,12,18" concept="7" />
+      <node id="1538621104059260500" at="13,5,14,93" concept="6" />
+      <node id="1538621104059260500" at="15,33,16,43" concept="6" />
+      <node id="1538621104059260500" at="17,45,18,20" concept="7" />
+      <node id="1538621104059260500" at="20,5,21,17" concept="7" />
+      <node id="1538621104059260500" at="24,24,25,18" concept="7" />
+      <node id="1538621104059260500" at="26,5,27,93" concept="6" />
+      <node id="1538621104059260500" at="28,33,29,43" concept="6" />
+      <node id="1538621104059260500" at="30,45,31,43" concept="7" />
+      <node id="1538621104059260500" at="33,5,34,16" concept="7" />
+      <node id="1538621104059260500" at="36,49,37,51" concept="6" />
+      <node id="1538621104059260500" at="38,27,39,32" concept="7" />
+      <node id="1538621104059260500" at="40,5,41,14" concept="7" />
+      <node id="1538621104059260500" at="10,44,13,5" concept="4" />
+      <node id="1538621104059260500" at="16,43,19,7" concept="4" />
+      <node id="1538621104059260500" at="23,47,26,5" concept="4" />
+      <node id="1538621104059260500" at="29,43,32,7" concept="4" />
+      <node id="1538621104059260500" at="37,51,40,5" concept="4" />
+      <node id="1538621104059260500" at="14,93,20,5" concept="9" />
+      <node id="1538621104059260500" at="27,93,33,5" concept="9" />
+      <node id="1538621104059260500" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1538621104059260500" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1538621104059260500" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1538621104059260500" at="11,24,12,18" />
+      <scope id="1538621104059260500" at="17,45,18,20" />
+      <scope id="1538621104059260500" at="24,24,25,18" />
+      <scope id="1538621104059260500" at="30,45,31,43" />
+      <scope id="1538621104059260500" at="38,27,39,32" />
+      <scope id="1538621104059260500" at="15,33,19,7">
+        <var name="constant" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="28,33,32,7">
+        <var name="constant" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="36,49,41,14">
+        <var name="constant" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="36,0,43,0">
+        <var name="value" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="10,44,21,17">
+        <var name="constants" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="23,47,34,16">
+        <var name="constants" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="10,0,23,0">
+        <var name="value" id="1538621104059260500" />
+      </scope>
+      <scope id="1538621104059260500" at="23,0,36,0">
+        <var name="value" id="1538621104059260500" />
+      </scope>
+      <unit id="1538621104059260500" at="9,0,44,0" name="MrJEditor.structure.TestType_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/1538621104059498821">
+    <file name="Opt.java">
+      <node id="1538621104059498821" at="13,0,14,0" concept="3" trace="myName" />
+      <node id="1538621104059498821" at="14,27,15,18" concept="7" />
+      <node id="1538621104059498821" at="17,0,18,0" concept="3" trace="myValue" />
+      <node id="1538621104059498821" at="18,42,19,18" concept="2" />
+      <node id="1538621104059498821" at="19,18,20,20" concept="2" />
+      <node id="1538621104059498821" at="22,28,23,19" concept="7" />
+      <node id="1538621104059498821" at="25,36,26,19" concept="7" />
+      <node id="1538621104059498821" at="28,42,29,66" concept="6" />
+      <node id="1538621104059498821" at="29,66,30,50" concept="2" />
+      <node id="1538621104059498821" at="30,50,31,53" concept="2" />
+      <node id="1538621104059498821" at="31,53,32,16" concept="7" />
+      <node id="1538621104059498821" at="34,34,35,17" concept="7" />
+      <node id="1538621104059498821" at="38,24,39,30" concept="7" />
+      <node id="1538621104059498821" at="41,49,42,19" concept="7" />
+      <node id="1538621104059498821" at="44,52,45,22" concept="7" />
+      <node id="1538621104059498821" at="46,5,47,28" concept="7" />
+      <node id="1538621104059498821" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="1538621104059498821" at="22,0,25,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="1538621104059498821" at="25,0,28,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="1538621104059498821" at="34,0,37,0" concept="8" trace="getDefault#()LMrJEditor/structure/Opt;" />
+      <node id="1538621104059498821" at="37,46,40,5" concept="4" />
+      <node id="1538621104059498821" at="40,5,43,5" concept="4" />
+      <node id="1538621104059498821" at="43,5,46,5" concept="4" />
+      <node id="1538621104059498821" at="18,0,22,0" concept="1" trace="Opt#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="1538621104059498821" at="28,0,34,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="1538621104059498821" at="37,0,49,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/Opt;" />
+      <scope id="1538621104059498821" at="14,27,15,18" />
+      <scope id="1538621104059498821" at="22,28,23,19" />
+      <scope id="1538621104059498821" at="25,36,26,19" />
+      <scope id="1538621104059498821" at="34,34,35,17" />
+      <scope id="1538621104059498821" at="38,24,39,30" />
+      <scope id="1538621104059498821" at="41,49,42,19" />
+      <scope id="1538621104059498821" at="44,52,45,22" />
+      <scope id="1538621104059498821" at="18,42,20,20" />
+      <scope id="1538621104059498821" at="14,0,17,0" />
+      <scope id="1538621104059498821" at="22,0,25,0" />
+      <scope id="1538621104059498821" at="25,0,28,0" />
+      <scope id="1538621104059498821" at="34,0,37,0" />
+      <scope id="1538621104059498821" at="18,0,22,0">
+        <var name="name" id="1538621104059498821" />
+        <var name="value" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="28,42,32,16">
+        <var name="list" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="28,0,34,0" />
+      <scope id="1538621104059498821" at="37,46,47,28" />
+      <scope id="1538621104059498821" at="37,0,49,0">
+        <var name="value" id="1538621104059498821" />
+      </scope>
+      <unit id="1538621104059498821" at="9,0,50,0" name="MrJEditor.structure.Opt" />
+    </file>
+    <file name="Opt_PropertySupport.java">
+      <node id="1538621104059498821" at="11,24,12,18" concept="7" />
+      <node id="1538621104059498821" at="13,5,14,83" concept="6" />
+      <node id="1538621104059498821" at="15,33,16,38" concept="6" />
+      <node id="1538621104059498821" at="17,45,18,20" concept="7" />
+      <node id="1538621104059498821" at="20,5,21,17" concept="7" />
+      <node id="1538621104059498821" at="24,24,25,18" concept="7" />
+      <node id="1538621104059498821" at="26,5,27,83" concept="6" />
+      <node id="1538621104059498821" at="28,33,29,38" concept="6" />
+      <node id="1538621104059498821" at="30,45,31,43" concept="7" />
+      <node id="1538621104059498821" at="33,5,34,16" concept="7" />
+      <node id="1538621104059498821" at="36,49,37,41" concept="6" />
+      <node id="1538621104059498821" at="38,27,39,32" concept="7" />
+      <node id="1538621104059498821" at="40,5,41,14" concept="7" />
+      <node id="1538621104059498821" at="10,44,13,5" concept="4" />
+      <node id="1538621104059498821" at="16,38,19,7" concept="4" />
+      <node id="1538621104059498821" at="23,47,26,5" concept="4" />
+      <node id="1538621104059498821" at="29,38,32,7" concept="4" />
+      <node id="1538621104059498821" at="37,41,40,5" concept="4" />
+      <node id="1538621104059498821" at="14,83,20,5" concept="9" />
+      <node id="1538621104059498821" at="27,83,33,5" concept="9" />
+      <node id="1538621104059498821" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="1538621104059498821" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="1538621104059498821" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="1538621104059498821" at="11,24,12,18" />
+      <scope id="1538621104059498821" at="17,45,18,20" />
+      <scope id="1538621104059498821" at="24,24,25,18" />
+      <scope id="1538621104059498821" at="30,45,31,43" />
+      <scope id="1538621104059498821" at="38,27,39,32" />
+      <scope id="1538621104059498821" at="15,33,19,7">
+        <var name="constant" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="28,33,32,7">
+        <var name="constant" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="36,49,41,14">
+        <var name="constant" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="36,0,43,0">
+        <var name="value" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="10,44,21,17">
+        <var name="constants" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="23,47,34,16">
+        <var name="constants" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="10,0,23,0">
+        <var name="value" id="1538621104059498821" />
+      </scope>
+      <scope id="1538621104059498821" at="23,0,36,0">
+        <var name="value" id="1538621104059498821" />
+      </scope>
+      <unit id="1538621104059498821" at="9,0,44,0" name="MrJEditor.structure.Opt_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/21410603588474968">
+    <file name="EntityAssignmentType.java">
+      <node id="21410603588474968" at="18,0,19,0" concept="3" trace="myName" />
+      <node id="21410603588474968" at="19,27,20,18" concept="7" />
+      <node id="21410603588474968" at="22,0,23,0" concept="3" trace="myValue" />
+      <node id="21410603588474968" at="23,59,24,18" concept="2" />
+      <node id="21410603588474968" at="24,18,25,20" concept="2" />
+      <node id="21410603588474968" at="27,28,28,19" concept="7" />
+      <node id="21410603588474968" at="30,36,31,19" concept="7" />
+      <node id="21410603588474968" at="33,59,34,100" concept="6" />
+      <node id="21410603588474968" at="34,100,35,69" concept="2" />
+      <node id="21410603588474968" at="35,69,36,69" concept="2" />
+      <node id="21410603588474968" at="36,69,37,78" concept="2" />
+      <node id="21410603588474968" at="37,78,38,84" concept="2" />
+      <node id="21410603588474968" at="38,84,39,81" concept="2" />
+      <node id="21410603588474968" at="39,81,40,87" concept="2" />
+      <node id="21410603588474968" at="40,87,41,83" concept="2" />
+      <node id="21410603588474968" at="41,83,42,16" concept="7" />
+      <node id="21410603588474968" at="44,51,45,36" concept="7" />
+      <node id="21410603588474968" at="48,24,49,47" concept="7" />
+      <node id="21410603588474968" at="51,68,52,38" concept="7" />
+      <node id="21410603588474968" at="54,68,55,38" concept="7" />
+      <node id="21410603588474968" at="57,77,58,47" concept="7" />
+      <node id="21410603588474968" at="60,83,61,53" concept="7" />
+      <node id="21410603588474968" at="63,80,64,50" concept="7" />
+      <node id="21410603588474968" at="66,86,67,56" concept="7" />
+      <node id="21410603588474968" at="69,82,70,52" concept="7" />
+      <node id="21410603588474968" at="71,5,72,45" concept="7" />
+      <node id="21410603588474968" at="19,0,22,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="21410603588474968" at="27,0,30,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="21410603588474968" at="30,0,33,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="21410603588474968" at="44,0,47,0" concept="8" trace="getDefault#()LMrJEditor/structure/EntityAssignmentType;" />
+      <node id="21410603588474968" at="47,63,50,5" concept="4" />
+      <node id="21410603588474968" at="50,5,53,5" concept="4" />
+      <node id="21410603588474968" at="53,5,56,5" concept="4" />
+      <node id="21410603588474968" at="56,5,59,5" concept="4" />
+      <node id="21410603588474968" at="59,5,62,5" concept="4" />
+      <node id="21410603588474968" at="62,5,65,5" concept="4" />
+      <node id="21410603588474968" at="65,5,68,5" concept="4" />
+      <node id="21410603588474968" at="68,5,71,5" concept="4" />
+      <node id="21410603588474968" at="23,0,27,0" concept="1" trace="EntityAssignmentType#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="21410603588474968" at="33,0,44,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="21410603588474968" at="47,0,74,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/EntityAssignmentType;" />
+      <scope id="21410603588474968" at="19,27,20,18" />
+      <scope id="21410603588474968" at="27,28,28,19" />
+      <scope id="21410603588474968" at="30,36,31,19" />
+      <scope id="21410603588474968" at="44,51,45,36" />
+      <scope id="21410603588474968" at="48,24,49,47" />
+      <scope id="21410603588474968" at="51,68,52,38" />
+      <scope id="21410603588474968" at="54,68,55,38" />
+      <scope id="21410603588474968" at="57,77,58,47" />
+      <scope id="21410603588474968" at="60,83,61,53" />
+      <scope id="21410603588474968" at="63,80,64,50" />
+      <scope id="21410603588474968" at="66,86,67,56" />
+      <scope id="21410603588474968" at="69,82,70,52" />
+      <scope id="21410603588474968" at="23,59,25,20" />
+      <scope id="21410603588474968" at="19,0,22,0" />
+      <scope id="21410603588474968" at="27,0,30,0" />
+      <scope id="21410603588474968" at="30,0,33,0" />
+      <scope id="21410603588474968" at="44,0,47,0" />
+      <scope id="21410603588474968" at="23,0,27,0">
+        <var name="name" id="21410603588474968" />
+        <var name="value" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="33,59,42,16">
+        <var name="list" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="33,0,44,0" />
+      <scope id="21410603588474968" at="47,63,72,45" />
+      <scope id="21410603588474968" at="47,0,74,0">
+        <var name="value" id="21410603588474968" />
+      </scope>
+      <unit id="21410603588474968" at="9,0,75,0" name="MrJEditor.structure.EntityAssignmentType" />
+    </file>
+    <file name="EntityAssignmentType_PropertySupport.java">
+      <node id="21410603588474968" at="11,24,12,18" concept="7" />
+      <node id="21410603588474968" at="13,5,14,117" concept="6" />
+      <node id="21410603588474968" at="15,33,16,55" concept="6" />
+      <node id="21410603588474968" at="17,45,18,20" concept="7" />
+      <node id="21410603588474968" at="20,5,21,17" concept="7" />
+      <node id="21410603588474968" at="24,24,25,18" concept="7" />
+      <node id="21410603588474968" at="26,5,27,117" concept="6" />
+      <node id="21410603588474968" at="28,33,29,55" concept="6" />
+      <node id="21410603588474968" at="30,45,31,43" concept="7" />
+      <node id="21410603588474968" at="33,5,34,16" concept="7" />
+      <node id="21410603588474968" at="36,49,37,75" concept="6" />
+      <node id="21410603588474968" at="38,27,39,32" concept="7" />
+      <node id="21410603588474968" at="40,5,41,14" concept="7" />
+      <node id="21410603588474968" at="10,44,13,5" concept="4" />
+      <node id="21410603588474968" at="16,55,19,7" concept="4" />
+      <node id="21410603588474968" at="23,47,26,5" concept="4" />
+      <node id="21410603588474968" at="29,55,32,7" concept="4" />
+      <node id="21410603588474968" at="37,75,40,5" concept="4" />
+      <node id="21410603588474968" at="14,117,20,5" concept="9" />
+      <node id="21410603588474968" at="27,117,33,5" concept="9" />
+      <node id="21410603588474968" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="21410603588474968" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="21410603588474968" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="21410603588474968" at="11,24,12,18" />
+      <scope id="21410603588474968" at="17,45,18,20" />
+      <scope id="21410603588474968" at="24,24,25,18" />
+      <scope id="21410603588474968" at="30,45,31,43" />
+      <scope id="21410603588474968" at="38,27,39,32" />
+      <scope id="21410603588474968" at="15,33,19,7">
+        <var name="constant" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="28,33,32,7">
+        <var name="constant" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="36,49,41,14">
+        <var name="constant" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="36,0,43,0">
+        <var name="value" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="10,44,21,17">
+        <var name="constants" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="23,47,34,16">
+        <var name="constants" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="10,0,23,0">
+        <var name="value" id="21410603588474968" />
+      </scope>
+      <scope id="21410603588474968" at="23,0,36,0">
+        <var name="value" id="21410603588474968" />
+      </scope>
+      <unit id="21410603588474968" at="9,0,44,0" name="MrJEditor.structure.EntityAssignmentType_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/21410603589982551">
+    <file name="ID_PropertySupport.java">
+      <node id="21410603589982551" at="8,44,9,28" concept="6" />
+      <node id="21410603589982551" at="10,24,11,21" concept="2" />
+      <node id="21410603589982551" at="12,12,13,24" concept="2" />
+      <node id="21410603589982551" at="14,5,15,55" concept="7" />
+      <node id="21410603589982551" at="12,10,14,5" concept="0" />
+      <node id="21410603589982551" at="9,28,14,5" concept="4" />
+      <node id="21410603589982551" at="8,0,17,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <scope id="21410603589982551" at="10,24,11,21" />
+      <scope id="21410603589982551" at="12,12,13,24" />
+      <scope id="21410603589982551" at="8,44,15,55">
+        <var name="testValue" id="21410603589982551" />
+      </scope>
+      <scope id="21410603589982551" at="8,0,17,0">
+        <var name="value" id="21410603589982551" />
+      </scope>
+      <unit id="21410603589982551" at="7,0,18,0" name="MrJEditor.structure.ID_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/5190431334167752496">
+    <file name="BotImgTypes.java">
+      <node id="5190431334167752496" at="29,0,30,0" concept="3" trace="myName" />
+      <node id="5190431334167752496" at="30,27,31,18" concept="7" />
+      <node id="5190431334167752496" at="33,0,34,0" concept="3" trace="myValue" />
+      <node id="5190431334167752496" at="34,50,35,18" concept="2" />
+      <node id="5190431334167752496" at="35,18,36,20" concept="2" />
+      <node id="5190431334167752496" at="38,28,39,19" concept="7" />
+      <node id="5190431334167752496" at="41,36,42,19" concept="7" />
+      <node id="5190431334167752496" at="44,50,45,82" concept="6" />
+      <node id="5190431334167752496" at="45,82,46,68" concept="2" />
+      <node id="5190431334167752496" at="46,68,47,63" concept="2" />
+      <node id="5190431334167752496" at="47,63,48,62" concept="2" />
+      <node id="5190431334167752496" at="48,62,49,67" concept="2" />
+      <node id="5190431334167752496" at="49,67,50,64" concept="2" />
+      <node id="5190431334167752496" at="50,64,51,61" concept="2" />
+      <node id="5190431334167752496" at="51,61,52,59" concept="2" />
+      <node id="5190431334167752496" at="52,59,53,60" concept="2" />
+      <node id="5190431334167752496" at="53,60,54,66" concept="2" />
+      <node id="5190431334167752496" at="54,66,55,67" concept="2" />
+      <node id="5190431334167752496" at="55,67,56,64" concept="2" />
+      <node id="5190431334167752496" at="56,64,57,61" concept="2" />
+      <node id="5190431334167752496" at="57,61,58,68" concept="2" />
+      <node id="5190431334167752496" at="58,68,59,65" concept="2" />
+      <node id="5190431334167752496" at="59,65,60,64" concept="2" />
+      <node id="5190431334167752496" at="60,64,61,64" concept="2" />
+      <node id="5190431334167752496" at="61,64,62,67" concept="2" />
+      <node id="5190431334167752496" at="62,67,63,61" concept="2" />
+      <node id="5190431334167752496" at="63,61,64,16" concept="7" />
+      <node id="5190431334167752496" at="66,42,67,35" concept="7" />
+      <node id="5190431334167752496" at="70,24,71,38" concept="7" />
+      <node id="5190431334167752496" at="73,67,74,37" concept="7" />
+      <node id="5190431334167752496" at="76,62,77,32" concept="7" />
+      <node id="5190431334167752496" at="79,61,80,31" concept="7" />
+      <node id="5190431334167752496" at="82,66,83,36" concept="7" />
+      <node id="5190431334167752496" at="85,63,86,33" concept="7" />
+      <node id="5190431334167752496" at="88,60,89,30" concept="7" />
+      <node id="5190431334167752496" at="91,58,92,28" concept="7" />
+      <node id="5190431334167752496" at="94,59,95,29" concept="7" />
+      <node id="5190431334167752496" at="97,65,98,35" concept="7" />
+      <node id="5190431334167752496" at="100,66,101,36" concept="7" />
+      <node id="5190431334167752496" at="103,63,104,33" concept="7" />
+      <node id="5190431334167752496" at="106,60,107,30" concept="7" />
+      <node id="5190431334167752496" at="109,67,110,37" concept="7" />
+      <node id="5190431334167752496" at="112,64,113,34" concept="7" />
+      <node id="5190431334167752496" at="115,63,116,33" concept="7" />
+      <node id="5190431334167752496" at="118,63,119,33" concept="7" />
+      <node id="5190431334167752496" at="121,66,122,36" concept="7" />
+      <node id="5190431334167752496" at="124,60,125,30" concept="7" />
+      <node id="5190431334167752496" at="126,5,127,36" concept="7" />
+      <node id="5190431334167752496" at="30,0,33,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="5190431334167752496" at="38,0,41,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="5190431334167752496" at="41,0,44,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="5190431334167752496" at="66,0,69,0" concept="8" trace="getDefault#()LMrJEditor/structure/BotImgTypes;" />
+      <node id="5190431334167752496" at="69,54,72,5" concept="4" />
+      <node id="5190431334167752496" at="72,5,75,5" concept="4" />
+      <node id="5190431334167752496" at="75,5,78,5" concept="4" />
+      <node id="5190431334167752496" at="78,5,81,5" concept="4" />
+      <node id="5190431334167752496" at="81,5,84,5" concept="4" />
+      <node id="5190431334167752496" at="84,5,87,5" concept="4" />
+      <node id="5190431334167752496" at="87,5,90,5" concept="4" />
+      <node id="5190431334167752496" at="90,5,93,5" concept="4" />
+      <node id="5190431334167752496" at="93,5,96,5" concept="4" />
+      <node id="5190431334167752496" at="96,5,99,5" concept="4" />
+      <node id="5190431334167752496" at="99,5,102,5" concept="4" />
+      <node id="5190431334167752496" at="102,5,105,5" concept="4" />
+      <node id="5190431334167752496" at="105,5,108,5" concept="4" />
+      <node id="5190431334167752496" at="108,5,111,5" concept="4" />
+      <node id="5190431334167752496" at="111,5,114,5" concept="4" />
+      <node id="5190431334167752496" at="114,5,117,5" concept="4" />
+      <node id="5190431334167752496" at="117,5,120,5" concept="4" />
+      <node id="5190431334167752496" at="120,5,123,5" concept="4" />
+      <node id="5190431334167752496" at="123,5,126,5" concept="4" />
+      <node id="5190431334167752496" at="34,0,38,0" concept="1" trace="BotImgTypes#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="5190431334167752496" at="44,0,66,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="5190431334167752496" at="69,0,129,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/BotImgTypes;" />
+      <scope id="5190431334167752496" at="30,27,31,18" />
+      <scope id="5190431334167752496" at="38,28,39,19" />
+      <scope id="5190431334167752496" at="41,36,42,19" />
+      <scope id="5190431334167752496" at="66,42,67,35" />
+      <scope id="5190431334167752496" at="70,24,71,38" />
+      <scope id="5190431334167752496" at="73,67,74,37" />
+      <scope id="5190431334167752496" at="76,62,77,32" />
+      <scope id="5190431334167752496" at="79,61,80,31" />
+      <scope id="5190431334167752496" at="82,66,83,36" />
+      <scope id="5190431334167752496" at="85,63,86,33" />
+      <scope id="5190431334167752496" at="88,60,89,30" />
+      <scope id="5190431334167752496" at="91,58,92,28" />
+      <scope id="5190431334167752496" at="94,59,95,29" />
+      <scope id="5190431334167752496" at="97,65,98,35" />
+      <scope id="5190431334167752496" at="100,66,101,36" />
+      <scope id="5190431334167752496" at="103,63,104,33" />
+      <scope id="5190431334167752496" at="106,60,107,30" />
+      <scope id="5190431334167752496" at="109,67,110,37" />
+      <scope id="5190431334167752496" at="112,64,113,34" />
+      <scope id="5190431334167752496" at="115,63,116,33" />
+      <scope id="5190431334167752496" at="118,63,119,33" />
+      <scope id="5190431334167752496" at="121,66,122,36" />
+      <scope id="5190431334167752496" at="124,60,125,30" />
+      <scope id="5190431334167752496" at="34,50,36,20" />
+      <scope id="5190431334167752496" at="30,0,33,0" />
+      <scope id="5190431334167752496" at="38,0,41,0" />
+      <scope id="5190431334167752496" at="41,0,44,0" />
+      <scope id="5190431334167752496" at="66,0,69,0" />
+      <scope id="5190431334167752496" at="34,0,38,0">
+        <var name="name" id="5190431334167752496" />
+        <var name="value" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="44,50,64,16">
+        <var name="list" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="44,0,66,0" />
+      <scope id="5190431334167752496" at="69,54,127,36" />
+      <scope id="5190431334167752496" at="69,0,129,0">
+        <var name="value" id="5190431334167752496" />
+      </scope>
+      <unit id="5190431334167752496" at="9,0,130,0" name="MrJEditor.structure.BotImgTypes" />
+    </file>
+    <file name="BotImgTypes_PropertySupport.java">
+      <node id="5190431334167752496" at="11,24,12,18" concept="7" />
+      <node id="5190431334167752496" at="13,5,14,99" concept="6" />
+      <node id="5190431334167752496" at="15,33,16,46" concept="6" />
+      <node id="5190431334167752496" at="17,45,18,20" concept="7" />
+      <node id="5190431334167752496" at="20,5,21,17" concept="7" />
+      <node id="5190431334167752496" at="24,24,25,18" concept="7" />
+      <node id="5190431334167752496" at="26,5,27,99" concept="6" />
+      <node id="5190431334167752496" at="28,33,29,46" concept="6" />
+      <node id="5190431334167752496" at="30,45,31,43" concept="7" />
+      <node id="5190431334167752496" at="33,5,34,16" concept="7" />
+      <node id="5190431334167752496" at="36,49,37,57" concept="6" />
+      <node id="5190431334167752496" at="38,27,39,32" concept="7" />
+      <node id="5190431334167752496" at="40,5,41,14" concept="7" />
+      <node id="5190431334167752496" at="10,44,13,5" concept="4" />
+      <node id="5190431334167752496" at="16,46,19,7" concept="4" />
+      <node id="5190431334167752496" at="23,47,26,5" concept="4" />
+      <node id="5190431334167752496" at="29,46,32,7" concept="4" />
+      <node id="5190431334167752496" at="37,57,40,5" concept="4" />
+      <node id="5190431334167752496" at="14,99,20,5" concept="9" />
+      <node id="5190431334167752496" at="27,99,33,5" concept="9" />
+      <node id="5190431334167752496" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="5190431334167752496" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="5190431334167752496" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="5190431334167752496" at="11,24,12,18" />
+      <scope id="5190431334167752496" at="17,45,18,20" />
+      <scope id="5190431334167752496" at="24,24,25,18" />
+      <scope id="5190431334167752496" at="30,45,31,43" />
+      <scope id="5190431334167752496" at="38,27,39,32" />
+      <scope id="5190431334167752496" at="15,33,19,7">
+        <var name="constant" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="28,33,32,7">
+        <var name="constant" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="36,49,41,14">
+        <var name="constant" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="36,0,43,0">
+        <var name="value" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="10,44,21,17">
+        <var name="constants" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="23,47,34,16">
+        <var name="constants" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="10,0,23,0">
+        <var name="value" id="5190431334167752496" />
+      </scope>
+      <scope id="5190431334167752496" at="23,0,36,0">
+        <var name="value" id="5190431334167752496" />
+      </scope>
+      <unit id="5190431334167752496" at="9,0,44,0" name="MrJEditor.structure.BotImgTypes_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/5190431334169314238">
+    <file name="FormatType.java">
+      <node id="5190431334169314238" at="13,0,14,0" concept="3" trace="myName" />
+      <node id="5190431334169314238" at="14,27,15,18" concept="7" />
+      <node id="5190431334169314238" at="17,0,18,0" concept="3" trace="myValue" />
+      <node id="5190431334169314238" at="18,49,19,18" concept="2" />
+      <node id="5190431334169314238" at="19,18,20,20" concept="2" />
+      <node id="5190431334169314238" at="22,28,23,19" concept="7" />
+      <node id="5190431334169314238" at="25,36,26,19" concept="7" />
+      <node id="5190431334169314238" at="28,49,29,80" concept="6" />
+      <node id="5190431334169314238" at="29,80,30,64" concept="2" />
+      <node id="5190431334169314238" at="30,64,31,65" concept="2" />
+      <node id="5190431334169314238" at="31,65,32,16" concept="7" />
+      <node id="5190431334169314238" at="34,41,35,31" concept="7" />
+      <node id="5190431334169314238" at="38,24,39,37" concept="7" />
+      <node id="5190431334169314238" at="41,63,42,33" concept="7" />
+      <node id="5190431334169314238" at="44,64,45,34" concept="7" />
+      <node id="5190431334169314238" at="46,5,47,35" concept="7" />
+      <node id="5190431334169314238" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="5190431334169314238" at="22,0,25,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="5190431334169314238" at="25,0,28,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="5190431334169314238" at="34,0,37,0" concept="8" trace="getDefault#()LMrJEditor/structure/FormatType;" />
+      <node id="5190431334169314238" at="37,53,40,5" concept="4" />
+      <node id="5190431334169314238" at="40,5,43,5" concept="4" />
+      <node id="5190431334169314238" at="43,5,46,5" concept="4" />
+      <node id="5190431334169314238" at="18,0,22,0" concept="1" trace="FormatType#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="5190431334169314238" at="28,0,34,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="5190431334169314238" at="37,0,49,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/FormatType;" />
+      <scope id="5190431334169314238" at="14,27,15,18" />
+      <scope id="5190431334169314238" at="22,28,23,19" />
+      <scope id="5190431334169314238" at="25,36,26,19" />
+      <scope id="5190431334169314238" at="34,41,35,31" />
+      <scope id="5190431334169314238" at="38,24,39,37" />
+      <scope id="5190431334169314238" at="41,63,42,33" />
+      <scope id="5190431334169314238" at="44,64,45,34" />
+      <scope id="5190431334169314238" at="18,49,20,20" />
+      <scope id="5190431334169314238" at="14,0,17,0" />
+      <scope id="5190431334169314238" at="22,0,25,0" />
+      <scope id="5190431334169314238" at="25,0,28,0" />
+      <scope id="5190431334169314238" at="34,0,37,0" />
+      <scope id="5190431334169314238" at="18,0,22,0">
+        <var name="name" id="5190431334169314238" />
+        <var name="value" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="28,49,32,16">
+        <var name="list" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="28,0,34,0" />
+      <scope id="5190431334169314238" at="37,53,47,35" />
+      <scope id="5190431334169314238" at="37,0,49,0">
+        <var name="value" id="5190431334169314238" />
+      </scope>
+      <unit id="5190431334169314238" at="9,0,50,0" name="MrJEditor.structure.FormatType" />
+    </file>
+    <file name="FormatType_PropertySupport.java">
+      <node id="5190431334169314238" at="11,24,12,18" concept="7" />
+      <node id="5190431334169314238" at="13,5,14,97" concept="6" />
+      <node id="5190431334169314238" at="15,33,16,45" concept="6" />
+      <node id="5190431334169314238" at="17,45,18,20" concept="7" />
+      <node id="5190431334169314238" at="20,5,21,17" concept="7" />
+      <node id="5190431334169314238" at="24,24,25,18" concept="7" />
+      <node id="5190431334169314238" at="26,5,27,97" concept="6" />
+      <node id="5190431334169314238" at="28,33,29,45" concept="6" />
+      <node id="5190431334169314238" at="30,45,31,43" concept="7" />
+      <node id="5190431334169314238" at="33,5,34,16" concept="7" />
+      <node id="5190431334169314238" at="36,49,37,55" concept="6" />
+      <node id="5190431334169314238" at="38,27,39,32" concept="7" />
+      <node id="5190431334169314238" at="40,5,41,14" concept="7" />
+      <node id="5190431334169314238" at="10,44,13,5" concept="4" />
+      <node id="5190431334169314238" at="16,45,19,7" concept="4" />
+      <node id="5190431334169314238" at="23,47,26,5" concept="4" />
+      <node id="5190431334169314238" at="29,45,32,7" concept="4" />
+      <node id="5190431334169314238" at="37,55,40,5" concept="4" />
+      <node id="5190431334169314238" at="14,97,20,5" concept="9" />
+      <node id="5190431334169314238" at="27,97,33,5" concept="9" />
+      <node id="5190431334169314238" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="5190431334169314238" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="5190431334169314238" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="5190431334169314238" at="11,24,12,18" />
+      <scope id="5190431334169314238" at="17,45,18,20" />
+      <scope id="5190431334169314238" at="24,24,25,18" />
+      <scope id="5190431334169314238" at="30,45,31,43" />
+      <scope id="5190431334169314238" at="38,27,39,32" />
+      <scope id="5190431334169314238" at="15,33,19,7">
+        <var name="constant" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="28,33,32,7">
+        <var name="constant" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="36,49,41,14">
+        <var name="constant" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="36,0,43,0">
+        <var name="value" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="10,44,21,17">
+        <var name="constants" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="23,47,34,16">
+        <var name="constants" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="10,0,23,0">
+        <var name="value" id="5190431334169314238" />
+      </scope>
+      <scope id="5190431334169314238" at="23,0,36,0">
+        <var name="value" id="5190431334169314238" />
+      </scope>
+      <unit id="5190431334169314238" at="9,0,44,0" name="MrJEditor.structure.FormatType_PropertySupport" />
+    </file>
+  </root>
+  <root nodeRef="r:bca74589-3665-4bdb-8f51-dc6d16b97340(MrJEditor.structure)/6036292342413503438">
+    <file name="I18NLang.java">
+      <node id="6036292342413503438" at="13,0,14,0" concept="3" trace="myName" />
+      <node id="6036292342413503438" at="14,27,15,18" concept="7" />
+      <node id="6036292342413503438" at="17,0,18,0" concept="3" trace="myValue" />
+      <node id="6036292342413503438" at="18,47,19,18" concept="2" />
+      <node id="6036292342413503438" at="19,18,20,20" concept="2" />
+      <node id="6036292342413503438" at="22,28,23,19" concept="7" />
+      <node id="6036292342413503438" at="25,36,26,19" concept="7" />
+      <node id="6036292342413503438" at="28,47,29,76" concept="6" />
+      <node id="6036292342413503438" at="29,76,30,56" concept="2" />
+      <node id="6036292342413503438" at="30,56,31,56" concept="2" />
+      <node id="6036292342413503438" at="31,56,32,16" concept="7" />
+      <node id="6036292342413503438" at="34,39,35,23" concept="7" />
+      <node id="6036292342413503438" at="38,24,39,35" concept="7" />
+      <node id="6036292342413503438" at="41,55,42,25" concept="7" />
+      <node id="6036292342413503438" at="44,55,45,25" concept="7" />
+      <node id="6036292342413503438" at="46,5,47,33" concept="7" />
+      <node id="6036292342413503438" at="14,0,17,0" concept="5" trace="getName#()Ljava/lang/String;" />
+      <node id="6036292342413503438" at="22,0,25,0" concept="5" trace="getValue#()Ljava/lang/String;" />
+      <node id="6036292342413503438" at="25,0,28,0" concept="5" trace="getValueAsString#()Ljava/lang/String;" />
+      <node id="6036292342413503438" at="34,0,37,0" concept="8" trace="getDefault#()LMrJEditor/structure/I18NLang;" />
+      <node id="6036292342413503438" at="37,51,40,5" concept="4" />
+      <node id="6036292342413503438" at="40,5,43,5" concept="4" />
+      <node id="6036292342413503438" at="43,5,46,5" concept="4" />
+      <node id="6036292342413503438" at="18,0,22,0" concept="1" trace="I18NLang#(Ljava/lang/String;Ljava/lang/String;)V" />
+      <node id="6036292342413503438" at="28,0,34,0" concept="8" trace="getConstants#()Ljava/util/List;" />
+      <node id="6036292342413503438" at="37,0,49,0" concept="8" trace="parseValue#(Ljava/lang/String;)LMrJEditor/structure/I18NLang;" />
+      <scope id="6036292342413503438" at="14,27,15,18" />
+      <scope id="6036292342413503438" at="22,28,23,19" />
+      <scope id="6036292342413503438" at="25,36,26,19" />
+      <scope id="6036292342413503438" at="34,39,35,23" />
+      <scope id="6036292342413503438" at="38,24,39,35" />
+      <scope id="6036292342413503438" at="41,55,42,25" />
+      <scope id="6036292342413503438" at="44,55,45,25" />
+      <scope id="6036292342413503438" at="18,47,20,20" />
+      <scope id="6036292342413503438" at="14,0,17,0" />
+      <scope id="6036292342413503438" at="22,0,25,0" />
+      <scope id="6036292342413503438" at="25,0,28,0" />
+      <scope id="6036292342413503438" at="34,0,37,0" />
+      <scope id="6036292342413503438" at="18,0,22,0">
+        <var name="name" id="6036292342413503438" />
+        <var name="value" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="28,47,32,16">
+        <var name="list" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="28,0,34,0" />
+      <scope id="6036292342413503438" at="37,51,47,33" />
+      <scope id="6036292342413503438" at="37,0,49,0">
+        <var name="value" id="6036292342413503438" />
+      </scope>
+      <unit id="6036292342413503438" at="9,0,50,0" name="MrJEditor.structure.I18NLang" />
+    </file>
+    <file name="I18NLang_PropertySupport.java">
+      <node id="6036292342413503438" at="11,24,12,18" concept="7" />
+      <node id="6036292342413503438" at="13,5,14,93" concept="6" />
+      <node id="6036292342413503438" at="15,33,16,43" concept="6" />
+      <node id="6036292342413503438" at="17,45,18,20" concept="7" />
+      <node id="6036292342413503438" at="20,5,21,17" concept="7" />
+      <node id="6036292342413503438" at="24,24,25,18" concept="7" />
+      <node id="6036292342413503438" at="26,5,27,93" concept="6" />
+      <node id="6036292342413503438" at="28,33,29,43" concept="6" />
+      <node id="6036292342413503438" at="30,45,31,43" concept="7" />
+      <node id="6036292342413503438" at="33,5,34,16" concept="7" />
+      <node id="6036292342413503438" at="36,49,37,51" concept="6" />
+      <node id="6036292342413503438" at="38,27,39,32" concept="7" />
+      <node id="6036292342413503438" at="40,5,41,14" concept="7" />
+      <node id="6036292342413503438" at="10,44,13,5" concept="4" />
+      <node id="6036292342413503438" at="16,43,19,7" concept="4" />
+      <node id="6036292342413503438" at="23,47,26,5" concept="4" />
+      <node id="6036292342413503438" at="29,43,32,7" concept="4" />
+      <node id="6036292342413503438" at="37,51,40,5" concept="4" />
+      <node id="6036292342413503438" at="14,93,20,5" concept="9" />
+      <node id="6036292342413503438" at="27,93,33,5" concept="9" />
+      <node id="6036292342413503438" at="36,0,43,0" concept="5" trace="fromInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <node id="6036292342413503438" at="10,0,23,0" concept="5" trace="canSetValue#(Ljava/lang/String;)Z" />
+      <node id="6036292342413503438" at="23,0,36,0" concept="5" trace="toInternalValue#(Ljava/lang/String;)Ljava/lang/String;" />
+      <scope id="6036292342413503438" at="11,24,12,18" />
+      <scope id="6036292342413503438" at="17,45,18,20" />
+      <scope id="6036292342413503438" at="24,24,25,18" />
+      <scope id="6036292342413503438" at="30,45,31,43" />
+      <scope id="6036292342413503438" at="38,27,39,32" />
+      <scope id="6036292342413503438" at="15,33,19,7">
+        <var name="constant" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="28,33,32,7">
+        <var name="constant" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="36,49,41,14">
+        <var name="constant" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="36,0,43,0">
+        <var name="value" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="10,44,21,17">
+        <var name="constants" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="23,47,34,16">
+        <var name="constants" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="10,0,23,0">
+        <var name="value" id="6036292342413503438" />
+      </scope>
+      <scope id="6036292342413503438" at="23,0,36,0">
+        <var name="value" id="6036292342413503438" />
+      </scope>
+      <unit id="6036292342413503438" at="9,0,44,0" name="MrJEditor.structure.I18NLang_PropertySupport" />
+    </file>
+  </root>
+</debug-info>
+
